@@ -5,6 +5,6 @@ namespace Task.Data.Repositories.UserRepository
 {
     public interface IUserRepository : IGenericRepository<User>
     {
-        List<User> GetCertificat();
+        List<User> GetUser();
     }
 }

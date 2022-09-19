@@ -14,7 +14,7 @@ namespace Task.Data.Repositories.UserRepository
         }
 
 
-        public List<User> GetCertificat()
+        public List<User> GetUser()
         {
             return _context.Users.Where(d => d.CirtficatNum > 5).ToList();
         }
